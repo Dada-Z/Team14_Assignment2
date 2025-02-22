@@ -16,8 +16,11 @@ The file contains 4 components:
 - runtime_algorithm.png
 - runtime_number_rules.png
 
-4. Output: two text files for frequent sets and association rules.
-- frequent_itemsets.txt
-- association_rules.txt
+4. Output: 
+- Two text files for frequent sets and association rules.
+  + frequent_itemsets.txt
+  + association_rules.txt
+- Weka output:
+  + The output of association rule from Weka was saved in text file. The inputs are lowerBoundMinSupport=0.3 and minMetric=0.6
 
 5. Report: pdf file contains contribution form (cover page).
