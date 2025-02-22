@@ -21,6 +21,7 @@ The file contains 4 components:
   + frequent_itemsets.txt
   + association_rules.txt
 - Weka output:
-  + The output of association rule from Weka was saved in text file. The inputs are lowerBoundMinSupport=0.3 and minMetric=0.6
+  + The inputs are lowerBoundMinSupport=0.3 and minMetric=0.6
+  + The output of association rule from Weka was saved in text file. 
 
 5. Report: pdf file contains contribution form (cover page).
