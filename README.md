@@ -1,4 +1,5 @@
 # Team14_Assignment2
+Team member: Dada Zhang, Nick Montemarano
 
 This repo is used for Data Mining - Assignment 2: *Apriori* algorithm.
 
