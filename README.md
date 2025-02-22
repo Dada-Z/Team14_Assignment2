@@ -19,3 +19,5 @@ The file contains 4 components:
 4. Output: two text files for frequent sets and association rules.
 - frequent_itemsets.txt
 - association_rules.txt
+
+5. Report: pdf file contains contribution form (cover page).
