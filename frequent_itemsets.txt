@@ -1,0 +1,18 @@
+Itemset	Support
+{'Bread'}	0.8
+{'Milk'}	0.8
+{'Diaper'}	0.8
+{'Beer'}	0.6
+{'Coke'}	0.4
+{'Bread', 'Milk'}	0.6
+{'Bread', 'Beer'}	0.4
+{'Bread', 'Diaper'}	0.6
+{'Beer', 'Diaper'}	0.6
+{'Beer', 'Milk'}	0.4
+{'Diaper', 'Milk'}	0.6
+{'Coke', 'Diaper'}	0.4
+{'Coke', 'Milk'}	0.4
+{'Bread', 'Beer', 'Diaper'}	0.4
+{'Beer', 'Milk', 'Diaper'}	0.4
+{'Diaper', 'Coke', 'Milk'}	0.4
+{'Diaper', 'Bread', 'Milk'}	0.4
