@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.6 -D 0.05 -U 1.0 -M 0.3 -S -1.0 -c -1
+Relation:     test-1
+Instances:    5
+Attributes:   6
+              Bread
+              Milk
+              Diaper
+              Beer
+              Eggs
+              Coke
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.7 (3 instances)
+Minimum metric <confidence>: 0.6
+Number of cycles performed: 6
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 6
+
+Size of set of large itemsets L(2): 8
+
+Size of set of large itemsets L(3): 2
+
+Best rules found:
+
+ 1. Eggs=n 4 ==> Milk=y 4    <conf:(1)> lift:(1.25) lev:(0.16) [0] conv:(0.8)
+ 2. Milk=y 4 ==> Eggs=n 4    <conf:(1)> lift:(1.25) lev:(0.16) [0] conv:(0.8)
+ 3. Coke=n 3 ==> Bread=y 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 4. Beer=y 3 ==> Diaper=y 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 5. Bread=y Eggs=n 3 ==> Milk=y 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 6. Bread=y Milk=y 3 ==> Eggs=n 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 7. Diaper=y Eggs=n 3 ==> Milk=y 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 8. Milk=y Diaper=y 3 ==> Eggs=n 3    <conf:(1)> lift:(1.25) lev:(0.12) [0] conv:(0.6)
+ 9. Milk=y 4 ==> Bread=y 3    <conf:(0.75)> lift:(0.94) lev:(-0.04) [0] conv:(0.4)
+10. Bread=y 4 ==> Milk=y 3    <conf:(0.75)> lift:(0.94) lev:(-0.04) [0] conv:(0.4)
+
