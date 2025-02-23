@@ -26,3 +26,4 @@ The file contains 4 components:
   + The output of association rule from Weka was saved in text file
 
 5. Report: pdf file contains contribution form (cover page).
+- Zhang_Montemarano.pdf
