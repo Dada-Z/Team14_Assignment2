@@ -1,28 +1,28 @@
-Antecedent	Consequent	Support	Confidence
-{'Milk'}	{'Bread'}	0.6	0.7499999999999999
-{'Bread'}	{'Milk'}	0.6	0.7499999999999999
-{'Beer'}	{'Bread'}	0.4	0.6666666666666667
-{'Diaper'}	{'Bread'}	0.6	0.7499999999999999
-{'Bread'}	{'Diaper'}	0.6	0.7499999999999999
-{'Diaper'}	{'Beer'}	0.6	0.7499999999999999
-{'Beer'}	{'Diaper'}	0.6	1.0
-{'Beer'}	{'Milk'}	0.4	0.6666666666666667
-{'Milk'}	{'Diaper'}	0.6	0.7499999999999999
-{'Diaper'}	{'Milk'}	0.6	0.7499999999999999
-{'Coke'}	{'Diaper'}	0.4	1.0
-{'Coke'}	{'Milk'}	0.4	1.0
-{'Beer', 'Diaper'}	{'Bread'}	0.4	0.6666666666666667
-{'Bread', 'Diaper'}	{'Beer'}	0.4	0.6666666666666667
-{'Bread', 'Beer'}	{'Diaper'}	0.4	1.0
-{'Beer'}	{'Bread', 'Diaper'}	0.4	0.6666666666666667
-{'Diaper', 'Milk'}	{'Beer'}	0.4	0.6666666666666667
-{'Beer', 'Diaper'}	{'Milk'}	0.4	0.6666666666666667
-{'Beer', 'Milk'}	{'Diaper'}	0.4	1.0
-{'Beer'}	{'Diaper', 'Milk'}	0.4	0.6666666666666667
-{'Coke', 'Milk'}	{'Diaper'}	0.4	1.0
-{'Milk', 'Diaper'}	{'Coke'}	0.4	0.6666666666666667
-{'Coke', 'Diaper'}	{'Milk'}	0.4	1.0
-{'Coke'}	{'Milk', 'Diaper'}	0.4	1.0
-{'Bread', 'Milk'}	{'Diaper'}	0.4	0.6666666666666667
-{'Milk', 'Diaper'}	{'Bread'}	0.4	0.6666666666666667
-{'Bread', 'Diaper'}	{'Milk'}	0.4	0.6666666666666667
+=== Association Rules ===
+{'Milk'} → {'Bread'} (Support: 0.600, Confidence: 0.750)
+{'Bread'} → {'Milk'} (Support: 0.600, Confidence: 0.750)
+{'Diaper'} → {'Beer'} (Support: 0.600, Confidence: 0.750)
+{'Beer'} → {'Diaper'} (Support: 0.600, Confidence: 1.000)
+{'Bread'} → {'Diaper'} (Support: 0.600, Confidence: 0.750)
+{'Diaper'} → {'Bread'} (Support: 0.600, Confidence: 0.750)
+{'Beer'} → {'Bread'} (Support: 0.400, Confidence: 0.667)
+{'Beer'} → {'Milk'} (Support: 0.400, Confidence: 0.667)
+{'Coke'} → {'Milk'} (Support: 0.400, Confidence: 1.000)
+{'Coke'} → {'Diaper'} (Support: 0.400, Confidence: 1.000)
+{'Milk'} → {'Diaper'} (Support: 0.600, Confidence: 0.750)
+{'Diaper'} → {'Milk'} (Support: 0.600, Confidence: 0.750)
+{'Diaper', 'Bread'} → {'Beer'} (Support: 0.400, Confidence: 0.667)
+{'Beer', 'Bread'} → {'Diaper'} (Support: 0.400, Confidence: 1.000)
+{'Beer', 'Diaper'} → {'Bread'} (Support: 0.400, Confidence: 0.667)
+{'Beer'} → {'Diaper', 'Bread'} (Support: 0.400, Confidence: 0.667)
+{'Diaper', 'Milk'} → {'Beer'} (Support: 0.400, Confidence: 0.667)
+{'Beer', 'Milk'} → {'Diaper'} (Support: 0.400, Confidence: 1.000)
+{'Beer', 'Diaper'} → {'Milk'} (Support: 0.400, Confidence: 0.667)
+{'Beer'} → {'Diaper', 'Milk'} (Support: 0.400, Confidence: 0.667)
+{'Milk', 'Coke'} → {'Diaper'} (Support: 0.400, Confidence: 1.000)
+{'Diaper', 'Coke'} → {'Milk'} (Support: 0.400, Confidence: 1.000)
+{'Diaper', 'Milk'} → {'Coke'} (Support: 0.400, Confidence: 0.667)
+{'Coke'} → {'Diaper', 'Milk'} (Support: 0.400, Confidence: 1.000)
+{'Diaper', 'Milk'} → {'Bread'} (Support: 0.400, Confidence: 0.667)
+{'Milk', 'Bread'} → {'Diaper'} (Support: 0.400, Confidence: 0.667)
+{'Diaper', 'Bread'} → {'Milk'} (Support: 0.400, Confidence: 0.667)

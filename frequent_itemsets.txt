@@ -1,18 +1,18 @@
-Itemset	Support
-{'Bread'}	0.8
-{'Milk'}	0.8
-{'Diaper'}	0.8
-{'Beer'}	0.6
-{'Coke'}	0.4
-{'Bread', 'Milk'}	0.6
-{'Bread', 'Beer'}	0.4
-{'Bread', 'Diaper'}	0.6
-{'Beer', 'Diaper'}	0.6
-{'Beer', 'Milk'}	0.4
-{'Diaper', 'Milk'}	0.6
-{'Coke', 'Diaper'}	0.4
-{'Coke', 'Milk'}	0.4
-{'Bread', 'Beer', 'Diaper'}	0.4
-{'Beer', 'Milk', 'Diaper'}	0.4
-{'Diaper', 'Coke', 'Milk'}	0.4
-{'Diaper', 'Bread', 'Milk'}	0.4
+=== Frequent Itemsets ===
+{'Milk'} - Support: 0.800
+{'Bread'} - Support: 0.800
+{'Beer'} - Support: 0.600
+{'Diaper'} - Support: 0.800
+{'Coke'} - Support: 0.400
+{'Bread', 'Milk'} - Support: 0.600
+{'Beer', 'Diaper'} - Support: 0.600
+{'Diaper', 'Bread'} - Support: 0.600
+{'Beer', 'Bread'} - Support: 0.400
+{'Beer', 'Milk'} - Support: 0.400
+{'Milk', 'Coke'} - Support: 0.400
+{'Diaper', 'Coke'} - Support: 0.400
+{'Diaper', 'Milk'} - Support: 0.600
+{'Beer', 'Diaper', 'Bread'} - Support: 0.400
+{'Beer', 'Diaper', 'Milk'} - Support: 0.400
+{'Diaper', 'Milk', 'Coke'} - Support: 0.400
+{'Bread', 'Diaper', 'Milk'} - Support: 0.400
