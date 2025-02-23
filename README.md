@@ -8,8 +8,9 @@ The file contains 4 components:
 1. Data: vote.arff and test.arff
 
 2. Python file: determine frequent sets and generate association rules
-- **Apriori_algorithm_vote_data.ipynb:** is used for "vote.arff" dataset
-- **apriori_algorithm_team14.py:** assignment submission.
+- **Apriori_algorithm_vote_data.ipynb:** practice on Aprior algorithm using "vote.arff" dataset
+- **apriori_algorithm_team14.py:** assignment submission
+  + run python file: load the data, input minimum for support and confidence
   + !python apriori_algorithm_team14.py
 
 3. Plots: the runtime of algorithm and the number of rules as a function of "minimum support"
@@ -22,6 +23,6 @@ The file contains 4 components:
   + association_rules.txt
 - Weka output:
   + The inputs are lowerBoundMinSupport=0.3 and minMetric=0.6
-  + The output of association rule from Weka was saved in text file. 
+  + The output of association rule from Weka was saved in text file
 
 5. Report: pdf file contains contribution form (cover page).
