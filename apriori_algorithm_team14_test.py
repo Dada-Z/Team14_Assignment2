@@ -88,6 +88,9 @@ def load_arff(file_path):
     data, meta = arff.loadarff(file_path)
     df = pd.DataFrame(data)
 
+    if 'Class' in df.columns:
+        df = df.drop(columns = ['Class'])
+
     # Convert byte-encoded values to string
     df = df.applymap(lambda x: x.decode("utf-8") if isinstance(x, bytes) else x)
 
