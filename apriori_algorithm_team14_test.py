@@ -119,7 +119,12 @@ def main():
     # spending time on fixing error here. 
     # if keep using the following - error and error.
     # frequent_itemsets_df.to_csv("frequent_itemsets.txt", sep='\t', index=False)
-    
+    top_rules = sorted(rules, key=lambda x: x[3], reverse=True)[:10]
+
+    print("Top 10 Association Rules Based on Confidence:")
+    for antecedent, consequent, support, confidence in top_rules:
+        print(f"{set(antecedent)} -> {set(consequent)} (Support: {support:.3f}, Confidence: {confidence:.3f})")
+        
     with open("frequent_itemsets.txt", "w") as f:
         f.write("=== Frequent Itemsets ===\n")
         for itemset, support in frequent_itemsets.items():
